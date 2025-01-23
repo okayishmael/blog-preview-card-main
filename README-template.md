@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://your-solution-url.com]
-- Live Site URL: [https://your-live-site-url.com]
+- Solution URL: [ My Solution sourse code](https://github.com/okayishmael/blog-preview-card-main)
+- Live Site URL: [My Solution Live site](https://okayishmael.github.io/blog-preview-card-main/)
 
 ## My process
 I first start of by reading the design brief and going the figma file(design and design system).
@@ -87,17 +87,19 @@ My focus now is to do more real-world challenges that require only html and css 
 
 ### Useful resources
 
-- [Example resource 1](https://w3schools.com) - .
-- [Example resource 2](https://developer.mozilla.org/en-US/) - these two sites are first plaese to go to for  any help I need with html, css and javascript referecnes.
+- [W3schools.com](https://w3schools.com) - .
+- [Mozilla for Developer](https://developer.mozilla.org/en-US/)
+-  these two sites are first plaese to go to for  any help I need with html, css and javascript referecnes.
 
 
 ## Author
 
 - Website - [Ishmael Sunday](https://linkedin.com/in/ishmael-sunday)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ishmaelsunday)
+- Frontend Mentor - [@Ishmaelsunday](https://www.frontendmentor.io/profile/ishmaelsunday)
 - Bluesky - [@ishmaelsunday.bsky.social](https://bsky.app/profile/ishmaelsunday.bsky.social)
 
 
 
 ## Acknowledgments
 Worked Solo.
+VS-code videos on github
