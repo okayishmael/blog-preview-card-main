@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://your-solution-url.com]
-- Live Site URL: [https://your-live-site-url.com]
+- Live Site URL: [https://okayishmael.github.io/blog-preview-card-main/]
 
 ## My process
 I first start of by reading the design brief and going the figma file(design and design system).
