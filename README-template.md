@@ -32,11 +32,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./assets/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [https://your-solution-url.com]
+- Solution URL: [https://github.com/okayishmael/blog-preview-card-main]
 - Live Site URL: [https://okayishmael.github.io/blog-preview-card-main/]
 
 ## My process
@@ -102,3 +102,4 @@ My focus now is to do more real-world challenges that require only html and css 
 
 ## Acknowledgments
 Worked Solo.
+VS-code videos on github
