@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution sourse code](https://github.com/okayishmael/blog-preview-card-main)
-- Live Site URL: [Blog Preview Card](https://okayishmael.github.io/blog-preview-card-main/)
+- Solution URL: [ My Solution sourse code](https://github.com/okayishmael/blog-preview-card-main)
+- Live Site URL: [My Solution Live site](https://okayishmael.github.io/blog-preview-card-main/)
 
 ## My process
 I first start of by reading the design brief and going the figma file(design and design system).
