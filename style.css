@@ -48,16 +48,9 @@ body{
     
 }
 
-.article-btn-link{
-    text-decoration: none;
-    display:inline-block;
-    margin-bottom: 1.25rem;
-    color: #000;
-    &:visited{
-        color: #000;
-    }
 
-}
+
+
 .article-btn{
     display: inline-block;
     padding: .625rem 1.25rem;
