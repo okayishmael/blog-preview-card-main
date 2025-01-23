@@ -1,0 +1,133 @@
+
+/* 
+Author: Ishmael Sunday
+ Challenge: Frontend Mentor Challenge 2
+ Date: January 2025
+  */
+
+
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Figtree", serif;
+    font-size: 1rem;
+    color: hsl(0, 0%, 42%);
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        line-height: 150%;
+    
+}
+
+/* Card styles for Mobile */
+.container{
+    max-width: 90%;
+    min-width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.25rem 1.25rem .3125rem 1.25rem;
+    border-radius: 1.25rem;
+    box-shadow: 10px 10px  rgb(0, 0, 0);
+    margin: auto;
+    border: 3px solid #000;
+    margin-bottom: 1.25rem;
+}
+.container > *{
+    margin-bottom: 1.125rem;
+}
+.article-illustration{ 
+    width: 100%;
+    border-radius: .75rem;
+    
+}
+
+.article-btn-link{
+    text-decoration: none;
+    display:inline-block;
+    margin-bottom: 1.25rem;
+}
+.article-btn{
+    display: inline-block;
+    padding: .625rem 1.25rem;
+    background-color: hsl(47, 88%, 63%);
+    border: 0;
+    border-radius: .3125rem;
+    font-weight:700;
+    cursor: pointer;
+
+    &:hover{
+        background-color: hsl(47, 88%, 53%);
+        transition-duration: 0.5s;
+    }
+}
+
+.article-date{
+    font-size: .875rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+    letter-spacing: 0;
+}
+.article-title{
+    font-size: 1.5rem;
+    font-weight: 950;
+    color: #000;
+    letter-spacing: 0;
+}
+
+.article-description{
+    font-size: 1rem;
+    font-weight: 500;
+    color:  hsl(0, 0%, 42%);
+    letter-spacing: 0;
+}
+.article-author{
+    display: flex;
+    align-items: center;
+    
+}
+
+.author-avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: .625rem;
+}
+
+.author-name{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 0;
+}
+
+.attribution { font-size: .6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*  Card style for midium sceen and desktop */
+@media (min-width: 500px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    .container{
+        width: 384px;
+        margin-bottom: 1.25rem;
+
+        &:hover{
+            transition-duration: 0.5s;
+            transform: scale(1.01);
+        }
+    }
+    
+}
