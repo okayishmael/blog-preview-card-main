@@ -7,13 +7,16 @@ Author: Ishmael Sunday
 
 
 
-*, *::before, *::after{
-    margin: 0;
-    padding: 0;
+  *, *::before, *::after {
     box-sizing: border-box;
-}
-
-body{
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body{
     font-family: "Figtree", serif;
     font-size: 1rem;
     color: hsl(0, 0%, 42%);
@@ -22,15 +25,51 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 100vh;
+        min-height: 100vh;
         line-height: 150%;
+     /* 3. Add accessible line-height */
+     line-height: 1.5;
+     /* 4. Improve text rendering */
+     -webkit-font-smoothing: antialiased;
     
 }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
 
 /* Card styles for Mobile */
 .container{
-    max-width: 90%;
-    min-width: 300px;
+    max-width: 80%;
     background-color: hsl(0, 0%, 100%);
     padding: 1.25rem 1.25rem .3125rem 1.25rem;
     border-radius: 1.25rem;
@@ -51,19 +90,16 @@ body{
 
 
 
-.article-btn{
+.article-label{
     display: inline-block;
     padding: .625rem 1.25rem;
     background-color: hsl(47, 88%, 63%);
     border: 0;
     border-radius: .3125rem;
     font-weight:700;
-    cursor: pointer;
+    color: #000;
 
-    &:hover{
-        background-color: hsl(47, 88%, 53%);
-        transition-duration: 0.5s;
-    }
+    
 }
 
 .article-date{
@@ -119,7 +155,7 @@ body{
     }
     
     .container{
-        width: 400px;
+        max-width: 400px;
         margin-bottom: 1.25rem;
 
         &:hover{
